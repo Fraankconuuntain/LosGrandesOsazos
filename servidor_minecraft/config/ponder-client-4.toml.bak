@@ -1,0 +1,3 @@
+#.
+#Slow down a ponder scene whenever there is text on screen.
+comfyReading = false

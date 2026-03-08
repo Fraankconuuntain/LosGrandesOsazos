@@ -1,0 +1,30 @@
+general = {}
+
+[mod]
+	#Set to false to disable TreeChop without having to uninstall the mod
+	enabled = true
+	#Let TreeChop print to the log
+	printDebugInfo = true
+[permissions]
+	[permissions.choppingEnabled]
+		canBeFalse = true
+		canBeTrue = true
+	[permissions.fellingEnabled]
+		canBeFalse = true
+		canBeTrue = true
+	[permissions.sneakBehavior]
+		canBeInvertChopping = true
+		canBeNone = true
+		canBeInvertFelling = true
+	[permissions.treeMustHaveLeaves]
+		canBeFalse = true
+		canBeTrue = true
+	[permissions.chopInCreativeMode]
+		canBeFalse = true
+		canBeTrue = true
+ true
+[general]
+	#If false, log items will be destroyed when chopping
+	dropLootForChoppedBlocks = true
+	#If true, chopped logs will drop a log item immediately instead of waiting for the tree to be felled, restoring legacy behavior. Does nothing if dropLootForChoppedBlocks is false
+	dropLootOnFirstChop = false

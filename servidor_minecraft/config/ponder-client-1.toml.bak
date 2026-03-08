@@ -1,0 +1,7 @@
+#.
+#Slow down a ponder scene whenever there is text on screen.
+comfyReading = false
+#.
+#Show additional info in the ponder view and reload scene scripts more frequently.
+editingMode = false
+placementAssist = {}
